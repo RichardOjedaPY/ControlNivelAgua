@@ -1,0 +1,17 @@
+# Ignorar archivos sensibles de configuración
+/public_html/config/database.php
+
+# Ignorar datos de sensores si no deseas exponerlos
+/public_html/data/*.php
+
+# Archivos de backup y temporales
+*.log
+*.bak
+*.tmp
+
+# Carpetas de caché
+.cache/
+
+# Archivos ocultos del sistema operativo
+.DS_Store
+Thumbs.db
